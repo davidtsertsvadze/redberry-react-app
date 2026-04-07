@@ -1,0 +1,29 @@
+[
+  {
+    "id": "advanced-react-typescript",
+    "title": "Advanced React & TypeScript Development",
+    "shortDescription": "Master modern React patterns, hooks, and TypeScript integration for building scalable web applications.",
+    "instructorName": "Marilyn Mango",
+    "price": 299,
+    "rating": 4.9,
+    "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=932&h=524&fit=crop"
+  },
+  {
+    "id": "full-stack-node",
+    "title": "Full-Stack Web Apps with Node.js",
+    "shortDescription": "Build production-ready APIs and connect them to modern front ends. Learn authentication, databases, and deployment workflows.",
+    "instructorName": "Marilyn Mango",
+    "price": 249,
+    "rating": 4.9,
+    "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=932&h=524&fit=crop"
+  },
+  {
+    "id": "ui-ux-figma",
+    "title": "UI/UX Design Systems in Figma",
+    "shortDescription": "Create consistent, accessible interfaces with components, auto layout, and handoff practices that developers love.",
+    "instructorName": "Marilyn Mango",
+    "price": 199,
+    "rating": 4.9,
+    "imageUrl": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=932&h=524&fit=crop"
+  }
+]
