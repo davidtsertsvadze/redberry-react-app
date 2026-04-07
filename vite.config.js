@@ -7,4 +7,13 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://api.redclass.redberryinternship.ge',
+        changeOrigin: true,
+        secure: true,
+      },
+    },
+  },
 })
