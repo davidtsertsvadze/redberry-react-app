@@ -29,7 +29,7 @@ export function FeaturedCourseCard({ course }) {
       <div className="flex flex-col flex-1 mt-4">
         
         {/* Lecturer & Rating Info */}
-        <div className="flex justify-between items-center text-sm text-gray-500 mb-2">
+        <div className="flex justify-between items-center text-[14px] text-[#8A8A8A] font-medium mb-2">
           <span>Lecturer: {instructorName}</span>
           
           <div className="flex items-center gap-1">
@@ -45,18 +45,18 @@ export function FeaturedCourseCard({ course }) {
         </div>
 
         {/* Title & Description */}
-        <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+        <h3 className="text-2xl font-semibold text-[#141414] mb-2 line-clamp-2">
           {title}
         </h3>
-        <p className="text-gray-600 text-sm line-clamp-3">
+        <p className="text-[#666666] font-medium text-base line-clamp-3">
           {description}
         </p>
 
         {/* Price & Button */}
         <div className="mt-auto pt-4 flex justify-between items-center">
           <div className="flex justify-between items-center gap-2">
-            <span className="block text-xs text-gray-400 uppercase">Starting from</span>
-            <span className="text-xl font-bold text-gray-900">{formattedPrice}</span>
+            <span className="block text-xs text-[#8A8A8A] uppercase">Starting from</span>
+            <span className="text-[32px] font-bold text-[#141414]">{formattedPrice}</span>
           </div>
 
           <Link

@@ -26,7 +26,7 @@ const HERO_SLIDES = [
   {
     id: 3,
     title: 'Learn together, grow faster',
-    description: 'Join our community of learners and experts to accelerate your career growth.',
+    description: '',
     ctaTo: '/courses',
     ctaLabel: 'Learn More',
     image: slide3Img,
