@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { fetchCategories, fetchCourses, fetchInstructors, fetchTopics } from '../api/courses'
 import StarIcon from '../assets/StarIcon.svg'
 import IconSet from '../assets/Icon_Set.svg'
+import ArrowIcon from '../assets/arrow.svg'
 
 function formatPrice(value) {
   const n = Number(value)
@@ -24,23 +25,14 @@ const SORT_OPTIONS = [
 
 function SortChevron({ open }) {
   return (
-    <svg
+    <img
+      src={ArrowIcon}
+      alt=""
       width={16}
       height={16}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={`shrink-0 text-[#666666] transition-transform ${open ? 'rotate-180' : ''}`}
+      className={`shrink-0 cursor-pointer transition-transform ${open ? 'rotate-180' : ''}`}
       aria-hidden
-    >
-      <path
-        d="M6 9l6 6 6-6"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    />
   )
 }
 

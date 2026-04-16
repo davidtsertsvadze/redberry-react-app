@@ -43,7 +43,7 @@ export function Navbar() {
                 Enrolled Courses
               </Link>
               <Link
-                to="/dashboard"
+                to="/"
                 aria-label={user?.username ? `${user.username} profile` : 'Profile'}
                 className="ml-1 inline-flex items-center justify-center rounded-full"
               >

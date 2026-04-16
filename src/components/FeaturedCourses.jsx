@@ -26,7 +26,7 @@ export function FeaturedCourses() {
 
   return (
     <section
-      className="bg-[#F5F5F5] px-6 py-12 text-left sm:px-12 lg:px-[177px]"
+      className="bg-[#F5F5F5] px-6 py-12 text-left sm:px-12 lg:px-[177px] mb-[248px]"
     >
       <h2 className="text-[40px] font-semibold text-[#0A0A0A]">
         Start Learning Today
