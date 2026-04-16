@@ -1,16 +1,46 @@
-# React + Vite
+# Redberry React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This is a web application,online learning platform built with React, where users can search for and enroll in educational courses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+* React (Vite)
+* JavaScript (ES6+)
+* Tailwind CSS
+* REST API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* User authentication (Login)
+* Fetching data from API
+* Dynamic UI components
+* Form validation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/redberry-react-app.git
+
+# Navigate to the project folder
+cd redberry-react-app
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+```
+
+## Project Structure
+
+* src/components – components
+* src/pages – pages
+* src/api – API services
+* src/context – global state management
+
+## Author
+
+Davit Tsertsvadze
